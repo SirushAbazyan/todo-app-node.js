@@ -1,0 +1,10 @@
+html
+	head
+		title='USERS'
+	body
+		h1 Users
+		each name in names
+			span= name
+			a(href='/users') Delete
+			a(href='/edit') Edit
+			br
